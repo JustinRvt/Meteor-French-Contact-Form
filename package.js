@@ -1,7 +1,7 @@
 Package.describe({
     name: 'justinrvt:contact-form',
     summary: 'French contact form for METEOR',
-    version: '1.3.3'
+    version: '1.3.3',
     git: 'https://github.com/JustinRvt/Meteor-French-Contact-Form'
 });
 
