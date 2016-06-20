@@ -16,7 +16,7 @@ Package.onUse(function(api) {
     api.use([
       'templating',
       'coffeescript'
-    ]);    
+    ]);
     api.use('aldeed:autoform@5.3.0');
     api.addFiles('contact-form.coffee');
     api.addFiles([
@@ -29,7 +29,14 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
     api.use('tinytest');
-    api.use('templating', 'client');
+    api.use([
+        'templating',
+        'mquandalle:jade@0.4.9'
+    ]);
+    api.use([
+      'templating',
+      'coffeescript'
+    ]); 
     api.use('aldeed:autoform@5.3.0');
     api.addFiles('contact-form.coffee');
     api.addFiles([
