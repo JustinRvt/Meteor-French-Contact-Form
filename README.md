@@ -6,13 +6,13 @@ git clone in packages or meteor add justinrvt:contact-form`
 
 ## Server side:
 
-```coffeecript
+```javascript
 Meteor.settings.myFrenchContactForm = emailTo: 'coucou@coucou.com'
 ...
 ```
 ## Client side:
 
-```jade
+```html
 +myFrenchContactForm
 ...
 ```
