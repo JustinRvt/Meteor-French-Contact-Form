@@ -30,6 +30,7 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
     api.use('tinytest');
+    api.use('email','server');
     api.use([
         'templating',
         'mquandalle:jade@0.4.9'
