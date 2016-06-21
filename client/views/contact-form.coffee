@@ -1,2 +1,2 @@
 Template.myFrenchContactForm.helpers myFrenchContactFormSchema: ->
-  global.Schema.myFrenchContactForm
+    global.Schema.myFrenchContactForm

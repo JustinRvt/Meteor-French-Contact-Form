@@ -14,8 +14,8 @@ Package.onUse(function(api) {
         'mquandalle:jade@0.4.9'
     ]);
     api.use([
-      'templating',
-      'coffeescript'
+        'templating',
+        'coffeescript'
     ]);
     api.use('aldeed:autoform@5.3.0');
     api.addFiles('contact-form.coffee');
@@ -34,16 +34,16 @@ Package.onTest(function(api) {
         'mquandalle:jade@0.4.9'
     ]);
     api.use([
-      'templating',
-      'coffeescript'
-    ]); 
+        'templating',
+        'coffeescript'
+    ]);
     api.use('aldeed:autoform@5.3.0');
     api.addFiles('contact-form.coffee');
     api.addFiles([
-      'client/views/contact-form.jade',
-      'client/views/contact-form.coffee'
-    ],
-    'client');
+            'client/views/contact-form.jade',
+            'client/views/contact-form.coffee'
+        ],
+        'client');
     api.addFiles('server/contact-form.coffee', 'server');
     api.addFiles('contact-form-tests.coffee');
 });
