@@ -47,6 +47,14 @@ HTML:
 {{>myFrenchContactForm}}
 ```
 
+## Next step
+
+You're done. :two_hearts:
+
+
+
+
+
 ## Atmospherejs.com:
 
 <https://atmospherejs.com/justinrvt/contact-form>
