@@ -1,7 +1,7 @@
 Package.describe({
     name: 'justinrvt:contact-form',
     summary: 'French contact form for METEOR',
-    version: '1.3.3',
+    version: '1.3.4',
     git: 'https://github.com/JustinRvt/Meteor-French-Contact-Form',
     documentation: 'README.md'
 });
@@ -18,6 +18,7 @@ Package.onUse(function(api) {
         'coffeescript'
     ]);
     api.use('aldeed:autoform@5.3.0');
+    api.use('check');
     api.addFiles('contact-form.coffee');
     api.addFiles([
             'client/views/contact-form.jade',
@@ -38,6 +39,7 @@ Package.onTest(function(api) {
         'coffeescript'
     ]);
     api.use('aldeed:autoform@5.3.0');
+    api.use('check');
     api.addFiles('contact-form.coffee');
     api.addFiles([
             'client/views/contact-form.jade',

@@ -15,6 +15,18 @@ Root of the project:
 
 ## Server side:
 
+[set the MAIL_URL environment variable](http://www.meteorpedia.com/read/Environment_Variables).
+
+For instance:
+
+```javascript
+Meteor.startup ->
+  process.env.MAIL_URL = 'smtp://yourlogin:yourpassword@smtp.youremaildeliveryprovider.net:587'
+  return
+```
+
+Then, add your email >
+
 Coffeescript:
 
 ```javascript
