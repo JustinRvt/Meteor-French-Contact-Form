@@ -5,6 +5,6 @@ Meteor.methods sendEmail: (data) ->
     Email.send
         to: Meteor.settings.myFrenchContactForm.emailTo
         from: data.email
-        subject: 'votresite.fr - Contact : ' + data.name
+        subject: 'PinkPamplemousse.fr - Contact : ' + data.name
         text: text
     return
